@@ -4,7 +4,6 @@
 **Duration: 15-20 minutes**  
 **Presenter: Yagnesh Panchal**
 
----
 
 ## 📋 Presentation Outline
 
@@ -19,7 +18,6 @@
 ### Slide 9: Results & Metrics (2 minutes)
 ### Slide 10: Q&A (5 minutes)
 
----
 
 ## 🎯 Slide 1: Title Slide
 
@@ -41,7 +39,6 @@
 **What to Say:**
 > "Good morning/afternoon. I'm Yagnesh Panchal, and I'm excited to present my solution for the Akhila Labs Engineering Challenge. I've built a multi-modal AI pipeline that processes text, audio, and video data with AI-powered insights."
 
----
 
 ## 🎯 Slide 2: Challenge Overview
 
@@ -68,7 +65,6 @@ What I Delivered:
 
 **Key Point:** Emphasize you EXCEEDED requirements, not just met them.
 
----
 
 ## 🎯 Slide 3: Solution Architecture
 
@@ -109,7 +105,6 @@ What I Delivered:
 
 **Key Point:** Show how different inputs share the same analysis pipeline.
 
----
 
 ## 🎯 Slide 4: Live Demo - Text Analysis
 
@@ -141,7 +136,6 @@ What I Delivered:
 
 **Key Point:** Emphasize speed and accuracy.
 
----
 
 ## 🎯 Slide 5: Live Demo - Video Upload
 
@@ -176,7 +170,6 @@ What I Delivered:
 
 **Key Point:** This is the WOW moment - show the complete pipeline working.
 
----
 
 ## 🎯 Slide 6: Multi-Language Support
 
@@ -208,7 +201,6 @@ Non-Latin Scripts: Yes (Arabic, Hindi, Chinese, etc.)
 
 **Key Point:** This demonstrates global thinking and scalability.
 
----
 
 ## 🎯 Slide 7: Technical Deep Dive
 
@@ -248,7 +240,6 @@ Code Quality:
 
 **Key Point:** Show engineering maturity and thoughtful decisions.
 
----
 
 ## 🎯 Slide 8: AI Integration & Responsible Practices
 
@@ -285,7 +276,6 @@ What AI Couldn't Do:
 
 **Key Point:** Show AI maturity - using AI as a tool, not a crutch.
 
----
 
 ## 🎯 Slide 9: Results & Metrics
 
@@ -328,7 +318,6 @@ Deliverables:
 
 **Key Point:** Show concrete results and value delivered.
 
----
 
 ## 🎯 Slide 10: Summary & What Makes This Strong
 
@@ -379,7 +368,6 @@ What This Shows:
 
 **Key Point:** Tie it back to Akhila Labs' needs and show leadership thinking.
 
----
 
 ## 🎯 Q&A Preparation
 
@@ -403,7 +391,6 @@ What This Shows:
 **Q: How does this relate to Akhila Labs' IoT platform?**
 > "IoT devices generate diverse data - sensor readings (text), voice commands (audio), surveillance footage (video). This pipeline can ingest all three types, analyze them with AI, and provide actionable insights. The multi-language support means it works globally. The local AI option means it can run on edge devices. It's a perfect fit for IoT-driven environments."
 
----
 
 ## 🎬 Presentation Tips
 
@@ -428,7 +415,6 @@ What This Shows:
 4. "Global scale" (99 languages)
 5. "Engineering leadership" (strategic decisions)
 
----
 
 ## 📊 Backup Slides (If Demo Fails)
 
@@ -449,7 +435,6 @@ If live demo fails, walk through the code:
 - Show test results in `FINAL_TEST_RESULTS.md`
 - Show code structure in `src/`
 
----
 
 ## ⏱️ Time Management
 
@@ -469,14 +454,12 @@ If live demo fails, walk through the code:
 
 **Total: 20-25 minutes**
 
----
 
 ## 🎯 Closing Statement
 
 **What to Say:**
 > "Thank you for your time. I'm excited about the opportunity to join Akhila Labs and contribute to your IoT platform. This challenge was a great experience - it allowed me to demonstrate not just coding skills, but engineering leadership, strategic thinking, and the ability to deliver production-ready solutions. I'm ready to answer any questions you have."
 
----
 
 ## ✅ Pre-Presentation Checklist
 
@@ -489,6 +472,5 @@ If live demo fails, walk through the code:
 - [ ] Confident and prepared
 - [ ] Ready to impress!
 
----
 
 **Good luck! You've built something impressive - now show them!** 🚀

@@ -5,7 +5,6 @@
 **Date:** February 20, 2026  
 **Challenge:** Akhila Labs Software Engineering Commander
 
----
 
 ## 1. Executive Summary
 
@@ -14,7 +13,6 @@ This document outlines a minimal, production-ready text processing pipeline that
 **Primary Data Type:** Text (documents, articles, user feedback)  
 **Core Value:** Automated content analysis with sentiment detection, entity extraction, and summarization
 
----
 
 ## 2. System Architecture
 
@@ -77,7 +75,6 @@ This document outlines a minimal, production-ready text processing pipeline that
 5. **Store:** Save document + analysis results to database
 6. **Retrieve:** Query via API with filters (date, sentiment, entities)
 
----
 
 ## 3. Technology Choices & Trade-offs
 
@@ -100,7 +97,6 @@ This document outlines a minimal, production-ready text processing pipeline that
 - **React/Vue Frontend:** Time sink; simple HTML + htmx sufficient
 - **Message Queues:** No async processing needed at this scale
 
----
 
 ## 4. AI Integration Strategy
 
@@ -138,7 +134,6 @@ Text: {document_text}
 - **Fallback:** Graceful degradation if AI unavailable
 - **Validation:** Human-reviewable outputs, confidence scores
 
----
 
 ## 5. Database Schema
 
@@ -180,7 +175,6 @@ CREATE INDEX idx_entity_type ON entities(entity_type);
 CREATE INDEX idx_ingested_at ON documents(ingested_at);
 ```
 
----
 
 ## 6. API Endpoints
 
@@ -195,7 +189,6 @@ CREATE INDEX idx_ingested_at ON documents(ingested_at);
 | GET | `/stats` | Dashboard metrics | - | `{total_docs, sentiment_breakdown}` |
 | GET | `/health` | System health check | - | `{status, db_ok, ai_ok}` |
 
----
 
 ## 7. Risk Assessment & Mitigations
 
@@ -208,7 +201,6 @@ CREATE INDEX idx_ingested_at ON documents(ingested_at);
 | **Malicious Input** | Medium | Medium | Input sanitization, size limits, content filtering |
 | **Slow AI Response** | Low | High | Async processing, timeout handling, user feedback |
 
----
 
 ## 8. Scope Boundaries
 
@@ -229,7 +221,6 @@ CREATE INDEX idx_ingested_at ON documents(ingested_at);
 - Comprehensive test coverage (only critical paths)
 - Polished UI (API-first, simple HTML demo)
 
----
 
 ## 9. Success Metrics
 
@@ -246,7 +237,6 @@ CREATE INDEX idx_ingested_at ON documents(ingested_at);
 - Uptime: 99.5%
 - Cost: <$0.01 per document analyzed
 
----
 
 ## 10. Development Timeline (Estimated)
 
@@ -262,7 +252,6 @@ CREATE INDEX idx_ingested_at ON documents(ingested_at);
 | Documentation | 1 hour | README, usage guide |
 | **Total** | **8 hours** | Working prototype |
 
----
 
 ## 11. AI Usage in This Challenge
 
@@ -283,7 +272,6 @@ CREATE INDEX idx_ingested_at ON documents(ingested_at);
 - **Risk Assessment:** Business and operational risk evaluation
 - **Final Review:** Code quality, security, maintainability checks
 
----
 
 ## 12. Conclusion
 

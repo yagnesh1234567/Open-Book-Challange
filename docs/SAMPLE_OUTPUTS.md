@@ -2,7 +2,6 @@
 
 This document shows example inputs, processing results, and API responses from the system.
 
----
 
 ## Sample 1: Positive Sentiment (Tech News)
 
@@ -56,7 +55,6 @@ of products and services.
 }
 ```
 
----
 
 ## Sample 2: Negative Sentiment (Security News)
 
@@ -106,7 +104,6 @@ bodies in Washington D.C. have launched an investigation into the incident.
 }
 ```
 
----
 
 ## Sample 3: Neutral Sentiment (Weather Report)
 
@@ -154,7 +151,6 @@ any severe weather warnings for the region.
 }
 ```
 
----
 
 ## API Endpoint Examples
 
@@ -315,7 +311,6 @@ curl http://localhost:8000/health
 }
 ```
 
----
 
 ## Error Handling Examples
 
@@ -374,7 +369,6 @@ curl http://localhost:8000/documents/999
 }
 ```
 
----
 
 ## Web UI Screenshots
 
@@ -413,7 +407,6 @@ Endpoints:
 - GET    /health          Health check
 ```
 
----
 
 ## Performance Metrics
 
@@ -435,7 +428,6 @@ Endpoints:
 | Topic Relevance | 95% (human-evaluated) |
 | Summary Quality | 90% (human-evaluated) |
 
----
 
 ## Database Contents (After Test Run)
 
@@ -483,7 +475,6 @@ document_id | entity_text              | entity_type
 4           | Berlin                   | LOCATION
 ```
 
----
 
 ## Test Results Summary
 
@@ -534,7 +525,6 @@ Next steps:
   • API docs: http://localhost:8000/docs
 ```
 
----
 
 **Document Version:** 1.0  
 **Generated:** February 20, 2026  

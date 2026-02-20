@@ -2,7 +2,6 @@
 
 **Get running in 5 minutes!**
 
----
 
 ## Prerequisites
 
@@ -10,7 +9,6 @@
 - OpenAI API key (or Anthropic/Ollama)
 - Terminal/Command line access
 
----
 
 ## Installation Steps
 
@@ -75,7 +73,6 @@ Server starts at: http://localhost:8000
 ### 7. Open Web UI
 Open browser: http://localhost:8000
 
----
 
 ## Quick Test with cURL
 
@@ -95,7 +92,6 @@ curl http://localhost:8000/documents/1
 curl http://localhost:8000/stats
 ```
 
----
 
 ## Alternative: Use Ollama (Free, Local)
 
@@ -115,7 +111,6 @@ AI_MODEL=llama3
 python test_pipeline.py
 ```
 
----
 
 ## Troubleshooting
 
@@ -145,7 +140,6 @@ rm data/pipeline.db
 python test_pipeline.py
 ```
 
----
 
 ## Next Steps
 
@@ -154,7 +148,6 @@ python test_pipeline.py
 3. ✅ View `docs/SAMPLE_OUTPUTS.md` for examples
 4. ✅ Explore API docs: http://localhost:8000/docs
 
----
 
 ## Support
 
@@ -163,6 +156,5 @@ python test_pipeline.py
 - Ensure virtual environment is activated
 - Review `.env` configuration
 
----
 
 **Ready to go!** 🚀

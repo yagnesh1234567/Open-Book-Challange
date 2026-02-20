@@ -265,7 +265,6 @@ Indexes:
          └────────────────────┘
 ```
 
----
 
 **Document Version:** 1.0  
 **Last Updated:** February 20, 2026
