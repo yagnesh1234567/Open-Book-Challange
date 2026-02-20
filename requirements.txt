@@ -1,0 +1,21 @@
+# Core dependencies
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+
+# AI providers (install based on choice)
+# openai==1.10.0  # Optional: for OpenAI
+# anthropic==0.18.0  # Optional: for Anthropic
+ollama==0.1.6  # For local AI
+
+# Audio/Video processing
+openai-whisper==20231117  # Audio transcription
+pydub==0.25.1  # Audio manipulation
+# ffmpeg-python==0.2.0  # Video processing (requires ffmpeg installed)
+
+# Database
+# sqlite3 is built into Python
+
+# Development
+pytest==7.4.4
+httpx==0.26.0
